@@ -4,7 +4,6 @@ module lab2_part6(
 );
 	wire [5:0] binary = SW[5:0];
 	wire [3:0] ten, units;
-	wire [3:0] bcd;
 	
 	//convert binary to decimal
 	assign ten = binary / 10;
